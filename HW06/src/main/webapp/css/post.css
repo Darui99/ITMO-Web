@@ -1,0 +1,63 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+article {
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+aside article {
+    margin-bottom: 0.5rem;
+}
+
+article .title {
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--caption-color);
+    padding-bottom: 0.5rem;
+}
+
+article .information {
+    color: #8b8b8b;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+article .body {
+    border-left: 0.3rem solid;
+    border-color: var(--border-color);
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+article .footer {
+    border: 0.05rem solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+}
+
+article .footer .left {
+    display: inline-flex;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+}
+
+article .footer .right {
+    float: right;
+}
+
+aside article .footer {
+    display: none;
+}

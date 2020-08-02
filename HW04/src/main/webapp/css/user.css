@@ -1,0 +1,38 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+main .user-info {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    position: relative;
+}
+
+main .user-info .nickname {
+    font-size: 2rem;
+}
+
+main .user-info img {
+    right: 0.5rem;
+    top: 0.7rem;
+    position: absolute;
+    content:url("../img/user.jpg");
+}
+
+main .user-info {
+     border: 1px solid var(--border-color);
+     border-radius: var(--border-radius);
+     padding: 1rem;
+     position: relative;
+}
+
+main .arrows {
+    font-size: 2.5rem;
+}

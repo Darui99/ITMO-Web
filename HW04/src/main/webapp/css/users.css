@@ -1,0 +1,36 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --search-color: #F7F7F7;
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    --table-color: #E1E1E1;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+table tbody tr:nth-child(2n+1) {
+    background: #F8F8F8;
+}
+
+.datatable .caption {
+    border: 1px solid var(--table-color);
+    border-bottom: none;
+    background-color: var(--table-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    padding: 0.3rem;
+}
+
+.datatable table {
+    border: 1px solid var(--table-color);
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.datatable th, .datatable td {
+    border: 1px solid var(--table-color);
+    padding: 0.3rem;
+}
